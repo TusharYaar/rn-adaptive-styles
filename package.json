@@ -1,0 +1,36 @@
+{
+  "name": "rn-adaptive-styles",
+  "version": "0.1.0",
+  "description": "React Native library to enable responsive styling",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TusharYaar/rn-adaptive-styles.git"
+  },
+  "keywords": [
+    "react native"
+  ],
+  "author": "Tushar S Agrawal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TusharYaar/rn-adaptive-styles/issues"
+  },
+  "homepage": "https://github.com/TusharYaar/rn-adaptive-styles#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.22.6",
+    "react-native": "^0.72.2"
+  },
+  "devDependencies": {
+    "tsup": "^7.1.0",
+    "typescript": "^5.1.6"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
