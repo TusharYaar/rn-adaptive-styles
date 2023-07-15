@@ -5,6 +5,9 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "test": "jest"
@@ -14,7 +17,10 @@
     "url": "git+https://github.com/TusharYaar/rn-adaptive-styles.git"
   },
   "keywords": [
-    "react native"
+    "react-native",
+    "ios",
+    "android",
+    "styles"
   ],
   "author": "Tushar S Agrawal",
   "license": "MIT",

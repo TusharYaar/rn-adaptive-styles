@@ -7,6 +7,8 @@ type M<T> = StyleSheet.NamedStyles<T>;
 const KEYINIT = "_$";
 const KEYSEP = "__";
 
+Platform.OS;
+
 const { width: WINDOW_WIDTH, height: WINDOW_HEIGHT } = Dimensions.get("window");
 
 type AdaptiveKey = `_$${string}`;
