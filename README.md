@@ -1,8 +1,8 @@
 # rn-adaptive-styles
 
-##IMPORTANT:warning:: The library is still in development and things might change. 
+## IMPORTANT:warning:: The library is still in development and things might change. 
 
-####Contributions and Feedbacks are appreciated.
+#### Contributions and Feedbacks are appreciated.
 
 React Native library to enable adaptive styling. Support foldables and css media query like styling. 
 
@@ -15,7 +15,7 @@ npm install rn-adaptive-styles
 ## Usage
 
 
-###### adaptiveKey
+#### adaptiveKey
 
 `adaptiveKey` creates the key which can be used in the style object which is read by the library and returns the style object.
 
@@ -25,10 +25,10 @@ npm install rn-adaptive-styles
 |maxWidth|number|-1| No|Max Width till the style will be applied such as `maxWidh < DeviceWidth`. Use `-1` to ignore the value|
 |minHeight|number|-1|No|Min Height at which the styles should be applied `minHeight >= DeviceHeight`. Use `-1` to ignore the value |
 |maxHeight|number|-1|No|Max Height till the style will be applied such as `maxHeight < DeviceHeight`. Use `-1` to ignore the value|
-|platform|"ios" ,"android","windows","macos","web" as string or string[] |no|The Platform on which the styles would be applied. Leave empty to apply it on all platforms. |
+|platform|"ios" ,"android","windows","macos","web" as string or string[]| |no|The Platform on which the styles would be applied. Leave empty to apply it on all platforms. |
 
 
-###### createDynamicStyles 
+#### createDynamicStyles 
 
 `createDynamicStyles` can be used to generate static styles depending on the screen-size and platform defined. Useful to modify styles when used on bigger screens(typically tablets and Ipads) to support their larger screen.
 
@@ -67,7 +67,7 @@ const styles = createAdaptiveStyles({
 
 ```
 
-###### useAdaptiveStyle
+#### useAdaptiveStyle
 
 useAdaptiveStyle hook enables adaptive styles which updates when screen dimensions change, such as when a foldable screen changes.
 
